@@ -278,6 +278,8 @@ python Age-Gender-Detect.py
 - Processes static images
 - Modify image path in script
 - Press 's' to save results
+- output:
+  ![photo](output/Age-gender-output.png)
 
 ### 4. Object Detection
 ```bash
@@ -286,6 +288,8 @@ python obj-names-model.py
 - Detects common objects in images
 - Uses COCO dataset classes
 - Modify image path as needed
+- output:
+  ![photo](output/obj-detect-output.png)
 
 ## Troubleshooting
 
