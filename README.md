@@ -279,6 +279,7 @@ python Age-Gender-Detect.py
 - Modify image path in script
 - Press 's' to save results
 - output:
+  
   ![photo](output/Age-gender-output.png)
 
 ### 4. Object Detection
