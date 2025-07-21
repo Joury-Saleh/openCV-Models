@@ -260,6 +260,8 @@ python Gender-Age-EyeBlink-Detection-vid.py
 - Processes a video file (`old-women.mp4`)
 - Detects age, gender, and eye blinks
 - Press 'q' to quit
+- output:
+  ![photo](output/EyeBlink-output)
 
 ### 2. Real-time Camera Detection
 ```bash
