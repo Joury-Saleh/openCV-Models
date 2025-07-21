@@ -21,7 +21,7 @@ The repository contains four main applications:
 3. **Age-Gender-Detect.py** - Static image age and gender detection
 4. **obj-names-model.py** - General object detection
 
-##  Required Model Files
+## Required Model Files
 
 ### For Face Landmark Detection (All Blink Detection Scripts)
 - **shape_predictor_68_face_landmarks.dat** (68.7 MB)
@@ -52,7 +52,7 @@ The repository contains four main applications:
 - **thing.names** (1 KB)
   - Class names file (COCO dataset classes)
 
-## 🔽 Download Links
+## Download Links
 
 ### 1. Shape Predictor (Facial Landmarks)
 ```bash
@@ -87,7 +87,7 @@ wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/ha
 **COCO Classes:**
 - [thing.names (COCO classes)](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
 
-##  Directory Structure
+## Directory Structure
 
 Organize your files as follows:
 
@@ -119,7 +119,7 @@ project_root/
     └── employee.png                 # Your test image
 ```
 
-## 🛠 Installation Steps
+## Installation Steps
 
 ### Step 1: Install Python Dependencies
 ```bash
@@ -207,7 +207,7 @@ layer {
 # ... (complete prototxt content available in OpenCV samples)
 ```
 
-##  Dependencies
+## Dependencies
 
 ### Python Packages
 ```bash
@@ -251,7 +251,7 @@ brew install cmake
 pip install dlib
 ```
 
-##  Usage
+## Usage
 
 ### 1. Video-based Detection
 ```bash
@@ -260,9 +260,6 @@ python Gender-Age-EyeBlink-Detection-vid.py
 - Processes a video file (`old-women.mp4`)
 - Detects age, gender, and eye blinks
 - Press 'q' to quit
-
-- output:
-[photo]
 
 ### 2. Real-time Camera Detection
 ```bash
@@ -288,7 +285,7 @@ python obj-names-model.py
 - Uses COCO dataset classes
 - Modify image path as needed
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -330,13 +327,14 @@ ls -lh data/gender_net.caffemodel             # ~513MB
 ls -lh files/frozen_inference_graph.pb        # ~20MB
 ```
 
-##  License
+## License
 
 These models are subject to their respective licenses:
 - **dlib models**: Boost Software License
 - **OpenCV models**: BSD License
 - **Age/Gender models**: Academic use (check original papers)
 - **MobileNet**: Apache 2.0 License
+
 
 
 ---
